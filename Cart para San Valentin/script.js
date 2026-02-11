@@ -6,7 +6,7 @@ yesBtn.addEventListener('click', () => {
     Swal.fire({
         title: '¡Sabía que dirías que sí! ❤️',
         text: 'Eres la persona más especial del mundo.',
-        imageUrl: 'Ositos.gif', 
+        imageUrl: 'ositos.gif', 
         imageWidth: 200,
         imageHeight: 200,
         confirmButtonColor: '#ff54a4',
@@ -25,4 +25,5 @@ noBtn.addEventListener('mouseover', () => {
     // Aplicamos las nuevas coordenadas
     noBtn.style.left = `${x}px`;
     noBtn.style.top = `${y}px`;
+
 });

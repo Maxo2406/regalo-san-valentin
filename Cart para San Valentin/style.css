@@ -1,0 +1,55 @@
+body {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden; /* Evita que salgan barras de scroll cuando el botón se mueva */
+}
+
+.question-container {
+    text-align: center;
+}
+
+.question {
+    font-size: 3rem;
+    color: #ff54a4;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.local-gif {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+/* --- ESTILOS DE LOS BOTONES --- */
+.btn {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: white;
+    box-shadow: 0 4px 15px rgba(255, 84, 164, 0.3);
+}
+
+.yes-btn {
+    background-color: #ff54a4;
+}
+
+.yes-btn:hover {
+    transform: scale(1.1);
+    background-color: #ff2e8c;
+}
+
+.no-btn {
+    background-color: #888; /* Color gris para que resalte menos que el sí */
+    position: absolute; /* ¡Esto permite que se mueva! */
+}
